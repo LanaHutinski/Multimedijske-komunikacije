@@ -1,10 +1,10 @@
 @charset="UTF-8";
-        body {
+body {
             font-family: 'Helvetica', sans-serif;
             background-color: #E7EBEE;
             margin: 50px;
-        }
-        h1 {
+}
+h1 {
             font-family: "Parisienne", cursive;
             font-weight: 500;
 			font-size: 90px;
@@ -13,14 +13,14 @@
             padding: 10px;
             border-radius: 10px;
             text-align: center;
-        }
-		h2{
+}
+h2{
 			font-weight: 600;
             font-style: normal;
             color: #2A4D69;
 			text-align:center;
-		}
-        p {
+}
+p {
             font-weight: 400;
             font-style: normal;
             color: #2A4D69;
@@ -30,4 +30,53 @@
             line-height: 1.6;
             margin-top: 20px;
 			text-align:center;
-        }
+}
+h2.podnaslov {
+			font-weight: 600;
+            font-style: normal;
+            color: #2A4D69;
+			text-align:left;
+}
+.popisi{
+			display: flex;
+			justify-content: center;
+			gap: 70px;
+			margin-top: 20px;
+}
+ul, ol {
+			background-color: #FFFFFF;
+			border-radius: 8px;
+			padding: 15px;
+			padding-left: 50px;
+			padding-right: 100px;
+			font-weight: 400;
+            font-style: normal;
+            color: #2A4D69;
+            line-height: 1.6;
+}
+ul li {
+			list-style: "‒ ";
+			margin-bottom: 5px;
+}
+ol li {
+			list-style: decimal-leading-zero;
+			margin-bottom: 5px;
+}
+span {
+			float: none;
+			width: 0.7em;
+			font-size: 300%;
+			font-family: "times new roman", courier;
+			line-height: 80%;
+}
+.citat {
+			font-weight: 400;
+            font-style: normal;
+            color: #2A4D69;
+            background-color: #FFFFFF;
+            padding: 15px;
+            border-radius: 8px;
+            line-height: 1.6;
+            margin-top: 20px;
+			text-align: center;
+}
