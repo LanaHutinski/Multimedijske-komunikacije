@@ -40,5 +40,36 @@
 		<em><span>"C</span>ilega života ja sam tia samo nju, da do njenog srca nađem put. Cilega života moje tilo je bez nje, ka’ cviće bez vode.<span>"</span></br></em>
 		<sup>- Oliver Dragojević</sup>
 	</p>
+	<form action="#" method="post">
+        <fieldset>
+            <legend>Nešto o vama:</legend>
+            <label for="ime">Ime i prezime:</label>
+            <input type="text" id="ime" name="ime" placeholder="Unesite svoje ime i prezime">
+            <label for="radio">Spol:</label>
+			<div class="spol">
+            <input type="radio" id="zensko" name="spol" value="zensko">
+			<label for="zensko">Žensko</label><br>
+			<input type="radio" id="musko" name="spol" value="musko">
+			<label for="musko">Muško</label><br>
+			</div>
+            <label for="tema">Koliko imate godina:</label>
+            <select id="tema" name="tema">
+                <option value="">-- odaberite --</option>
+                <option value="">0 - 15</option>
+                <option value="">16 - 20</option>
+                <option value="">21 - 25</option>
+                <option value="">26  ≤</option>
+            </select>
+            <label for="boja">Vaša omiljena boja <i>(unesite i/ili odaberite)</i>:</label>
+            <input list="boje" id="boja" name="boja" placeholder="npr. ljubičasta">
+            <datalist id="boje">
+                <option value="Zelena">
+                <option value="Plava">
+                <option value="Žuta">
+                <option value="Crvena">
+            </datalist>
+            <button type="submit">Pošalji</button>
+        </fieldset>
+    </form>
 </body>
 </html>
