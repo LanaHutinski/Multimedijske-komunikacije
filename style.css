@@ -162,6 +162,52 @@ button:active {
 input[type="text"]::placeholder {
             color: #5C5C5C;
 }
+table {
+            width: 100%;
+			height: auto;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background-color: #FFFFFF;
+            overflow: hidden;
+			border-radius: 8px;
+}
+thead {
+            background-color: #2A4D69;
+            color: white;
+}
+th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #2A4D69;
+            color:#2A4D69;			
+}
+.red {
+			color: #FFFFFF;
+}
+th {
+            font-weight: 600;
+            font-size: 19px;
+}
+tr:nth-child(even) {
+            background-color: #E7EBEE;
+}
+td:nth-child(1) {
+            font-weight: 600;
+            color: #2A4D69;
+}
+.posebno {
+            background-color: #D2DCE4;
+            font-weight: bold;
+			color: #2A4D69;
+}
+caption {
+            font-weight: 600;
+            font-style: normal;
+            color: #2A4D69;
+			text-align:center;
+			font-size:23px;
+            margin-bottom: 10px;
+}
 @media (max-width: 768px) {
             .popisi {
                 flex-direction: column;
