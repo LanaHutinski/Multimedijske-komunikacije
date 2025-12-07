@@ -252,7 +252,6 @@ caption {
 			display: block;
 			clear: both;
 }
-/* === 6. vježba === */
 .cards {
 			width: 100%;
 			text-align: center; 
@@ -267,12 +266,13 @@ caption {
 			border-radius: 8px;
 			padding: 10px;
 			padding-bottom: 1px;
+			position: relative;
 }
 .cards {
-			display: flex;
+			display: block;
 			justify-content: center;
 }
-.card img, .card iframe, .card object {
+.card img, .card iframe, .card object, .card video, .card audio, .card embed{
 			width: 200px;
 			height: 150px;
 			display: block;
@@ -284,6 +284,11 @@ caption {
 .card img:active {
             transform: scale(0.97)
 			}
+img {      
+            display: block;
+            margin:auto;
+            border-radius: 8px;
+}
 @media (max-width: 700px) {
 .popisi {
 			flex-direction: column;
